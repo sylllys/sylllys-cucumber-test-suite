@@ -1,0 +1,7 @@
+url: "{env:create-employee-url}"
+method: POST
+headers:
+  Content-Type: "application/json"
+body: "{file:restapiexample/payloads/create_employee.json}"
+save:
+  200: data.id

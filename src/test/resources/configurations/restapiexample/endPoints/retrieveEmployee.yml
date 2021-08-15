@@ -1,0 +1,2 @@
+url: "{env:retrieve-employee-url}"
+method: GET
