@@ -1,0 +1,1 @@
+Hello {global:name}!!, where were you {global:when}?

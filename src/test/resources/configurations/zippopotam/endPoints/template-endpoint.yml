@@ -1,0 +1,19 @@
+url: "{env:app-url}"
+method: "GET"
+path_variables:
+  var1: "value1"
+parameters:
+  param1: "value1"
+  param2: "value2"
+headers:
+  header1: "value1"
+  header2: "value2"
+  "Set-Cookie": "cookie details in plain text format"
+initialize:
+  globalVariabl1: "value1"
+  globalVariabl2: "value2"
+save:
+  200: "json path to save from response body to GlobalVariables when response code is 200"
+  202: "json path to save from response body to GlobalVariables when response code is 202"
+  400: "json path to save from response body to GlobalVariables when response code is 400"
+body: "{file:path to the file under src/test/resources/configurations e.g., zippopotam/payloads/filename.txt}"

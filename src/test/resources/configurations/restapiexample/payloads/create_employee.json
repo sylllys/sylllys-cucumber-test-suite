@@ -1,5 +1,0 @@
-{
-  "name": "{global:employee_name}",
-  "salary": "{global:employee_salary}",
-  "age": "{global:employee_age}"
-}

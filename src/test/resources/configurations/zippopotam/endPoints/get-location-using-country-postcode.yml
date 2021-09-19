@@ -1,0 +1,5 @@
+url: "{env:get-location-url}"
+method: GET
+path_variables:
+  country: "AU"
+  postcode: "2000"
